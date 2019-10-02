@@ -695,6 +695,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Countdowntime Section
+--------------------------------------------------------------*/
+
+#countdown {
+  
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 100px 0 40px 0;
+}
+
+#countdown:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+/*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 
